@@ -174,7 +174,7 @@ module.exports = function({ api, models, Users, Threads, Currencies }) {
     var threadInfoo = (threadInfo.get(threadID) || await Threads.getInfo(threadID));
     const Find = threadInfoo.adminIDs.find(el => el.id == senderID);
     const ryuko = '!OPERATOR.includes(senderID)';
-    if (OPERATOR.includes(senderID.toString())) permssion = 3;
+    if (OPERATOR.includes(senderID.toString())) permssion = 2;
     else if (ADMINBOT.includes(senderID.toString())) permssion = 2;
     else if (!ADMINBOT.includes(senderID) && ryuko && Find) permssion = 1;
     if (command && command.config && command.config.permission && command.config.permission > permssion) {
@@ -191,7 +191,7 @@ module.exports = function({ api, models, Users, Threads, Currencies }) {
 
     if (timestamps && timestamps instanceof Map && timestamps.has(senderID) && dateNow < timestamps.get(senderID) + expirationTime)
 
-      return api.setMessageReaction('🌼', event.messageID, err => (err) ? logger('An error occurred while executing setMessageReaction', 2) : '', !![]);
+      return api.setMessageReaction('😻', event.messageID, err => (err) ? logger('An error occurred while executing setMessageReaction', 2) : '', !![]);
     var getText2;
     if (command && command.languages && typeof command.languages === 'object' && command.languages.hasOwnProperty(global.config.language))
 
