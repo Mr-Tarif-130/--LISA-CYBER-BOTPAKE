@@ -29,7 +29,7 @@ module.exports.run = async function({ api, event }) {
   const { join } = global.nodemodule["path"];
   const { threadID } = event;
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-      api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
+      api.changeNickname(`[『 ${global.config.PREFIX} 』]  ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
       const fs = require("fs");
       return api.sendMessage("", event.threadID, () => api.sendMessage({body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n   আসসালামু আলাইকুম-!!🖤💫\n╰•┄┅═══❁🌺❁═══┅┄•╯
 
@@ -39,8 +39,8 @@ ________________________\n\n𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦�
 
 ${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
 
-𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :𝐈𝐒𝐋𝐀𝐌𝐈𝐂𝐊 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓
-\n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`, attachment: fs.createReadStream(__dirname + "/cache/king.mp4")} ,threadID));
+𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :𝙲𝚢𝚋𝚎𝚛 𝙻𝚒𝚜𝚊
+\n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`, attachment: fs.createReadStream(__dirname + "/cache/upt.mp4")} ,threadID));
   }
   else {
       try {
