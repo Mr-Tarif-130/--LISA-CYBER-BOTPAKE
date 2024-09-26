@@ -36,7 +36,7 @@ module.exports.config = {
   credits: "dipto",
   description: "better than all Sim simi",
   usePrefix: false,
-  prefix:true,
+  prefix:false,
   category: "ChatBots",
   commandCategory: "ChatBots",
   cooldowns: 5,
