@@ -39,10 +39,12 @@ var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈
 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗚𝗖ఌ︎:https://m.me/j/Aba5xjgUn-X7eDrA/
 •┄┅══❁CONCATET❁══┅┄• 
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=100080682514874
 
 𝐖𝐏  : wa.me/+8801775602198
-
+𝗧𝗴  :
+𝗬𝘁  :
+𝗶𝗻𝘀𝘁𝗮:
 
 •┄┅═══❁🌺❁═══┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═══❁🌺❁═══┅┄•
 
