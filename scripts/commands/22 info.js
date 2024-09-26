@@ -24,32 +24,25 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/jfVTL4T.jpeg", 
+var link = ["https://i.imgur.com/ArdDUY1.mp4", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg", 
+            "https://i.imgur.com/ArdDUY1.mp4", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg",
+            "https://i.imgur.com/ArdDUY1.mp4",
 
-            "https://i.imgur.com/jfVTL4T.jpeg"];
+            "https://i.imgur.com/ArdDUY1.mp4"];
 
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
  •┄┅════❁🌺❁════┅┄•
 
-𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫 𝐂𝐡𝐚𝐭
-
-𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : 𝟕 𝐀d𝐦𝐢𝐧 𝐜𝐨𝐧𝐭𝐫𝐨𝐥 𝐓𝐡𝐢𝐬 𝐑𝐨𝐛𝐨𝐭
-
+𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : 𝗡𝗜𝗦𝗔𝗡 𝗛𝗢𝗦𝗦𝗘𝗜𝗡 𝗘𝗗𝗜𝗧𝗭
+𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗚𝗖ఌ︎:https://m.me/j/Aba5xjgUn-X7eDrA/
 •┄┅══❁CONCATET❁══┅┄• 
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=100081939442749
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=
 
-𝐖𝐏  : wa.me/+8801859561262
-𝐖𝐏 : wa.me/+880 1309-991724
-𝐖𝐏 : wa.me/+880 1905-600093
-𝐖𝐏 : wa.me/+880 1771-717162
-𝐖𝐏 : wa.me/+880 1885-115218
-𝐖𝐏 : wa.me/+880 1763-899929
-𝐖𝐏 : wa.me/+880 1814-587247
+𝐖𝐏  : wa.me/+8801775602198
+
 
 •┄┅═══❁🌺❁═══┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═══❁🌺❁═══┅┄•
 
