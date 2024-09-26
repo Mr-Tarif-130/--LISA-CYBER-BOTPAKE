@@ -8,7 +8,7 @@ if you run use ``email`` and ``password``, use Cyber.json(``saveState:false``); 
 
 ## HOW TO GET 'CyberSTATE.JSON' DATA?
 
-to get ``Nayanstate.json`` data, please follow these steps :</br>
+to get ``Cyberstate.json`` data, please follow these steps :</br>
 
 step 1 : download fbstate exporter [here](https://drive.google.com/uc?id=1SFsFP_VhMyPg6JpqJtpqnjAr2kiKD7tl)</br>
 
