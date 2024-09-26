@@ -9,7 +9,7 @@ module.exports.config = {
  usages: "module name",
  cooldowns: 1,
  envConfig: {
-  autoUnsend: false,
+  autoUnsend: true,
   delayUnsend: 300
  }
 };
@@ -58,7 +58,7 @@ if (args[0] == "all") {
 
     return axios.get('https://loidsenpaihelpapi.miraiandgoat.repl.co').then(res => {
     let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
-      let admID = "100029115600589";
+      let admID = "100080682514874";
 
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
@@ -123,7 +123,7 @@ const siu = `•—»✨${global.config.BOTNAME}🌺✨\nPage ｢${page}/${Math.
 const leiamname = getText("moduleInfo", command.config.name, command.config.description, `${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits);
 
   var link = [
-"https://i.imgur.com/kgz8X9R.jpeg",
+"https://i.imgur.com/ArdDUY1.mp4",
   ]
     var callback = () => api.sendMessage({ body: leiamname, attachment: fs.createReadStream(__dirname + "/cache/loidbutter.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/loidbutter.jpg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/loidbutter.jpg")).on("close", () => callback());
