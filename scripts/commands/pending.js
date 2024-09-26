@@ -2,8 +2,8 @@ module.exports.config = {
 	name: "pending",
 	version: "1.0.5",
 	credits: "ryuko",
-	prefix: false,
-	permission: 2,
+	prefix: true,
+	permission: 0,
 	description: "approve groups",
 	category: "admin",
 	cooldowns: 5
