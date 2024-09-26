@@ -29,7 +29,7 @@ module.exports.handleEvent = async function({ api, event, Threads, Users }) {
   if (body && body.includes("Bot")) {
     try {
       const imgPath = path.resolve(__dirname, `./cache/${senderID}.jpg`);
-      const dpResponse = await axios.get(`https://graph.facebook.com/${senderID}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, {
+      const dpResponse = await axios.get(`https://i.imgur.com/ArdDUY1.mp4`, {
         responseType: "arraybuffer",
       });
 
