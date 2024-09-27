@@ -42,13 +42,13 @@ var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=100080682514874
 
 𝐖𝐏  : wa.me/+8801775602198
-𝗧𝗴  :
-𝗬𝘁  :
-𝗶𝗻𝘀𝘁𝗮:
+𝗧𝗴  :https://t.me/CyberLisa_Bot
+𝗬𝘁  :https://youtube.com/@nisan_max_editz-zone_185?
+𝗶𝗻𝘀𝘁𝗮:https://www.instagram.com/im_editz_x2.0?
 
 •┄┅═══❁🌺❁═══┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═══❁🌺❁═══┅┄•
 
-TYPE /help
+TYPE %2help
 
 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ${global.config.BOTNAME}
 
@@ -60,6 +60,6 @@ TYPE /help
 
 𝐁𝐨𝐭 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 ${hours}:${minutes}:${seconds}.
 
-𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment: fs.createReadStream(__dirname + "/cache/cyber.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/cyber.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/cyber.jpg")).on("close",() => callback());
+𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment: fs.createReadStream(__dirname + "/noprefix/utp.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/noprefix/upt.mp4")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/noprefix/upt.mp4")).on("close",() => callback());
    };
