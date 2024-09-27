@@ -59,7 +59,7 @@ module.exports.run = async({api,event,args}) => {
       return request(encodeURI(`${threadInfo.imageSrc}`)).pipe(fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
     }
                if (args.length == 0) return api.sendMessage(`You can use:\n\n${prefix}${this.config.name} user => it will get your own information.\n\n${prefix}${this.config.name} user @[Tag] => it will get the information of the person you tag.\n\n${prefix}${this.config.name} box => it will get your box information (number of members, djt each other,...)\n\n${prefix}${this.config.name} user box [uid || tid]`, event.threadID, event.messageID);
-    if (args[0] == "admin") {
+    if (args[0] == "-a") {
       var callback = () => api.sendMessage(
   {body:`â€”â€”â€”Â»ADMIN BOTÂ«â€”â€”â€”\nâ¯ Name: ðð«ð¢ð²ðšð§ð¬ð¡ ð‘ðšð£ð©ð®ð­ ðŸ–¤\nâ¯ Facebook: https://https://m.facebook.com/100080682514874\nâ¯ Thanks for using ${global.config.BOTNAME} bot`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
@@ -69,7 +69,7 @@ fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
     
       };
 
-if (args[0] == "spy") { 
+if (args[0] == "-u") { 
     if(!args[1]){
     if(event.type == "message_reply") id = event.messageReply.senderID
     else id = event.senderID;
