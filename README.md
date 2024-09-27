@@ -1,5 +1,5 @@
-<img src="https://i.imgur.com/ArdDUY1.mp4" alt="banner">
-<h1 align="center"><img src="https://i.imgur.com/ArdDUY1.mp4" width="22px"> MiraiTeam Bot - Bot Chat Messenger</h1>
+<img src="https://i.ibb.co/RQ28H2p/https://i.imgur.com/ArdDUY1.mp4" alt="banner">
+<h1 align="center"><img src="./dashboard/images/https://i.imgur.com/ArdDUY1.mp4" width="22px"> MiraiTeam Bot - Bot Chat Messenger</h1>
 ## CREDITS
 
 original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
