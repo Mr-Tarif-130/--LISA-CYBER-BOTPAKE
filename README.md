@@ -1,3 +1,6 @@
+## CREDITS
+
+original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
 ## Login System
 
 If you want to login with an email password, go to Cyber/configs/Cyber.json and set your email password ``email``, ``password`` value
